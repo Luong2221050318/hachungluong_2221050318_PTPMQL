@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Style the element with the id "myHeader" */
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "city" */
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+</style>
+</head>
+<body>
+    <h1>Hà Chung Lương</h1>
+    <p>2221050318</p>
+    <hr>
+
+    <h2>Difference Between Class and ID</h2>
+    <p>A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:</p>
+
+    <!-- An element with a unique id -->
+    <h1 id="myHeader">Hello Everyone</h1>
+    <button onclick="displayResult()">Thay đổi văn bản</button><br><br>
+    <button onclick="myFunction()">Ẩn các phần tử</button>
+    <!-- Multiple elements with same class -->
+    <h2 class="city">London</h2>
+    
+
+    <h2 class="city">Paris</h2>
+    
+
+    <h2 class="city">Tokyo</h2>
+    
+
+    <script>
+    function displayResult() {
+        document.getElementById("myHeader").innerHTML = "Have a nice day!";
+    }
+
+    function myFunction() {
+        var x = document.getElementsByClassName("city");
+        for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hà Chung Lương</h1>
+    <p>2221050318</p>
+    <hr>
+
+    <button onclick="myFunction()">Ẩn các phần tử</button>
+
+    <h2>The class Attribute</h2>
+    
+
+    <h2 class="city">London</h2>
+    
+
+    <h2 class="city">Paris</h2>
+   
+
+    <h2 class="city">Tokyo</h2>
+    
+
+    <script>
+    function myFunction() {
+        var x = document.getElementsByClassName("city");
+        for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+    }
+    </script>
+</body>
+</html>
