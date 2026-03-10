@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PTPMQL\\NetCore\\FirstWebMVC\\FirstWebMVC.csproj": {}
+    "D:\\PTPMQL\\NetCore\\DemoMVC\\FirstWebMVC.csproj": {}
   },
   "projects": {
-    "D:\\PTPMQL\\NetCore\\FirstWebMVC\\FirstWebMVC.csproj": {
+    "D:\\PTPMQL\\NetCore\\DemoMVC\\FirstWebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PTPMQL\\NetCore\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectUniqueName": "D:\\PTPMQL\\NetCore\\DemoMVC\\FirstWebMVC.csproj",
         "projectName": "FirstWebMVC",
-        "projectPath": "D:\\PTPMQL\\NetCore\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectPath": "D:\\PTPMQL\\NetCore\\DemoMVC\\FirstWebMVC.csproj",
         "packagesPath": "C:\\Users\\ADMINS\\.nuget\\packages\\",
-        "outputPath": "D:\\PTPMQL\\NetCore\\FirstWebMVC\\obj\\",
+        "outputPath": "D:\\PTPMQL\\NetCore\\DemoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMINS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,40 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

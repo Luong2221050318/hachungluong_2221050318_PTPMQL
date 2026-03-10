@@ -96,3 +96,16 @@ D:\PTPMQL\NetCore\FirstWebMVC\obj\Debug\net10.0\refint\FirstWebMVC.dll
 D:\PTPMQL\NetCore\FirstWebMVC\obj\Debug\net10.0\FirstWebMVC.pdb
 D:\PTPMQL\NetCore\FirstWebMVC\obj\Debug\net10.0\FirstWebMVC.genruntimeconfig.cache
 D:\PTPMQL\NetCore\FirstWebMVC\obj\Debug\net10.0\ref\FirstWebMVC.dll
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.AssemblyInfoInputs.cache
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.AssemblyInfo.cs
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.csproj.CoreCompileInputs.cache
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.RazorAssemblyInfo.cache
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.RazorAssemblyInfo.cs
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.sourcelink.json
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.dll
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\refint\FirstWebMVC.dll
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.pdb
+D:\PTPMQL\NetCore\DemoMVC\obj\Debug\net10.0\FirstWebMVC.csproj.AssemblyReference.cache
